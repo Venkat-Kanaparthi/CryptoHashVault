@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+DocGuardVault-main/node_modules/
+DocGuardVault-BackEnd-master/node_modules/
+
+# Local env files
+.env
+DocGuardVault-BackEnd-master/.env
+DocGuardVault-main/.env
+
+# Hardhat artifacts & cache
+DocGuardVault-BackEnd-master/artifacts/
+DocGuardVault-BackEnd-master/cache/
+DocGuardVault-BackEnd-master/uploads/*
+!DocGuardVault-BackEnd-master/uploads/.gitkeep
+
+# IDE configs
+.vscode/
+.idea/
+.qodo/
+
+# Production builds
+DocGuardVault-main/build/
